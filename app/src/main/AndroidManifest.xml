@@ -10,15 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".BoasVindasActivity"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".activity.NewLoginActivity"
             android:exported="false" />
+        <activity
+            android:name=".BoasVindasActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ActivityTelaMenu"
             android:label="@string/title_activity_tela_menu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ActivityTelaLogin"
+            android:name=".activity.LoginActivity"
             android:label="Login" />
         <activity android:name=".ActivityTelaSplash">
             <intent-filter>

@@ -1,4 +1,4 @@
-package com.example.appsalaodebeleza;
+package com.example.appsalaodebeleza.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class ActivityTelaLogin extends AppCompatActivity {
+import com.example.appsalaodebeleza.ActivityTelaMenu;
+import com.example.appsalaodebeleza.R;
+
+public class LoginActivity extends AppCompatActivity {
     Button buttonEnviar;//Declaração do objeto botão
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +25,7 @@ public class ActivityTelaLogin extends AppCompatActivity {
         buttonEnviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent telaMenu = new Intent(getApplicationContext(),ActivityTelaMenu.class);
+                Intent telaMenu = new Intent(getApplicationContext(), NewLoginActivity.class);
                 startActivity(telaMenu);
             }
         });

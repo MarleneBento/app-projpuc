@@ -41,7 +41,7 @@
                 android:fontFamily="cursive"
                 android:text="Para acessar nossos serviços, faça o login \n ou crie uma conta."
                 android:textAlignment="center"
-                android:textColor="@color/design_default_color_on_secondary"
+                android:textColor="@color/colorPrimaryDark"
                 android:textSize="24sp" />
 
             <LinearLayout
@@ -51,7 +51,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/buttonLogin"
+                    android:id="@+id/buttonActivityLogin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
