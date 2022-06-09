@@ -24,6 +24,7 @@
                 android:id="@+id/ic_organ"
                 android:layout_width="180dp"
                 android:layout_height="180dp"
+                android:layout_marginTop="45dp"
                 android:layout_marginStart="50dp"
                 android:layout_marginEnd="50dp"
                 android:background="@mipmap/ic_launcher_foreground"
@@ -38,7 +39,7 @@
                 android:id="@+id/txtTitleLogin"
                 android:layout_width="114dp"
                 android:layout_height="match_parent"
-                android:text="Organ"
+                android:text="Spaço\nmulher"
                 android:textColor="@color/colorPrimary"
                 android:textSize="36sp"
 
@@ -54,6 +55,7 @@
         <com.ogaclejapan.smarttablayout.SmartTabLayout
             android:id="@+id/viewpagertab"
             android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
             android:layout_height="48dp"
             android:background="#FFF"
             app:stl_indicatorAlwaysInCenter="false"
