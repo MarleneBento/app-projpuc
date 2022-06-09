@@ -51,20 +51,20 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/buttonCancelar"
+                    android:id="@+id/buttonLogin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/button_beauty_full"
-                    android:text="Cancelar" />
+                    android:text="Login" />
 
                 <Button
-                    android:id="@+id/buttonEnviar2"
+                    android:id="@+id/buttonCriarConta"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/button_beauty_full"
-                    android:text="Enviar" />
+                    android:text="Criar Conta" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

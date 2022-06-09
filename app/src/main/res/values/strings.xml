@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AppSalaoDeBelezaTeste</string>
+    <string name="app_name">Salao De Beleza</string>
     <string name="title_activity_tela_menu">ActivityTelaMenu</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
