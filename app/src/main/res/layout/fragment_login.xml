@@ -17,15 +17,16 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/txtEmailLog"
             android:layout_width="330dp"
-            android:layout_height="46dp"
+            android:layout_height="52dp"
             android:background="@color/white"
             android:hint="E-mail"
             android:imeOptions="actionNext"
             android:inputType="textEmailAddress"
             android:shadowColor="@color/colorPrimary"
-            android:text="rubens@gmail.com"
+            android:text="marlenebento@gmail.com"
             android:textColor="@color/cardview_dark_background"
-            android:textColorLink="@color/colorPrimary">
+            android:textColorLink="@color/colorPrimary"
+            tools:ignore="TouchTargetSizeCheck">
 
         </com.google.android.material.textfield.TextInputEditText>
 

@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.NewLoginActivity"
-    android:background="#FFF"
+    tools:context=".activitys.NewLoginActivity"
+    android:background="#f5f4f4"
     >
 
     <LinearLayout
@@ -22,32 +22,18 @@
 
             <ImageView
                 android:id="@+id/ic_organ"
-                android:layout_width="180dp"
-                android:layout_height="180dp"
-                android:layout_marginTop="45dp"
+                android:layout_width="229dp"
+                android:layout_height="206dp"
                 android:layout_marginStart="50dp"
+                android:layout_marginTop="45dp"
                 android:layout_marginEnd="50dp"
-                android:background="@mipmap/ic_launcher_foreground"
+                android:background="@mipmap/ic_logo_vs_background_foreground"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.099"
+                app:layout_constraintHorizontal_bias="0.496"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0" />
-
-            <TextView
-                android:id="@+id/txtTitleLogin"
-                android:layout_width="114dp"
-                android:layout_height="match_parent"
-                android:text="Spaço\nmulher"
-                android:textColor="@color/colorPrimary"
-                android:textSize="36sp"
-
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.818"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintVertical_bias="1.0" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -56,7 +42,7 @@
             android:id="@+id/viewpagertab"
             android:layout_width="match_parent"
             android:layout_marginTop="50dp"
-            android:layout_height="48dp"
+            android:layout_height="42dp"
             android:background="#FFF"
             app:stl_indicatorAlwaysInCenter="false"
             app:stl_indicatorWithoutPadding="false"
@@ -87,7 +73,8 @@
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/viewpager"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
             android:layout_below="@id/viewpagertab" />
 
 

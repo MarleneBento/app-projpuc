@@ -13,17 +13,19 @@
         android:theme="@style/Theme.salaodebeleza"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".activitys.ConsultaActivity"
-            android:label="Consultar Produto">
-
+            android:name=".activitys.CadastroActivity"
+            android:exported="true" >
         </activity>
 
         <activity
+            android:name=".activitys.ConsultaActivity"
+            android:label="@string/app_name"/>
+        <activity
             android:name=".activitys.MenuActivity"
-            android:label="Tela Menu" />
+            android:label="@string/app_name" />
         <activity
             android:name=".activitys.NewLoginActivity"
-            android:label="Tela Login">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
