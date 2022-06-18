@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.NewLoginActivity"
+    tools:context=".activitys.NewLoginActivity"
     android:background="#FFF"
     >
 
@@ -56,7 +56,7 @@
             android:id="@+id/viewpagertab"
             android:layout_width="match_parent"
             android:layout_marginTop="50dp"
-            android:layout_height="48dp"
+            android:layout_height="42dp"
             android:background="#FFF"
             app:stl_indicatorAlwaysInCenter="false"
             app:stl_indicatorWithoutPadding="false"
@@ -87,7 +87,8 @@
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/viewpager"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
             android:layout_below="@id/viewpagertab" />
 
 

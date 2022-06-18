@@ -55,7 +55,7 @@ dependencies {
     implementation 'androidx.gridlayout:gridlayout:1.0.0'
 
     //Imagem do perfil
-    implementation 'de.hdodenhof:circleimageview:3.0.1'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
     implementation 'com.miguelcatalan:materialsearchview:1.4.0'
 
     // Retrofit

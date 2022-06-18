@@ -25,8 +25,8 @@ public class NewLoginActivity extends AppCompatActivity {
         FragmentPagerItemAdapter adapter = new FragmentPagerItemAdapter(
                 getSupportFragmentManager(),
                 FragmentPagerItems.with(this)
-                        .add("LOGIN", LogFragment.class)
-                        .add("REGISTRAR-SE", RegisterFragment.class)
+                        .add("Login", LogFragment.class)
+                        .add("Criar Conta", RegisterFragment.class)
                         .create()
         );
 
